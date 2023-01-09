@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            make a bear
+        </title>
+        <link rel="stylesheet" href="makeABearDesign.css">
+        <script src="../../Script/MakeABearScript.js"></script>
+        <script>window.addEventListener('DOMContentLoaded', () => {
+            solve();
+        });</script>
+    </head>
+
+    <body>
+        <div id='desktop-1' class='desktop-1'>
+            <button id='button' class="button">
+                Create Bear
+            </button>
+            <div id='name' class='name'>
+            Name</div>
+            <img id='mechencemodel1' class='mechencemodel1' src='../../Models/DarkBrownBear.png'/>
+            <div id="eyes">
+                <div id='ellipse1' class='outerEye'>
+                </div>
+                <div id='ellipse2' class='outerEye'>
+                </div>
+                <div id='ellipse3' class='innereye'>
+                </div>
+                <div id='ellipse4' class='innereye'>
+                </div>
+            </div>
+            <input id='rectangle1' class='rectangle1'>
+            </input>
+            <p id="warning"></p>
+            <div id='rectangle2' class='rectangle2'>
+            </div>
+            <div id='rectangle3' class='rectangle3'>
+            </div>
+            <div id='chooseacoatcolor' class='chooseacoatcolor'>
+            Choose a coat color</div>
+            <div id='chooseeyestype' class='chooseeyestype'>
+            Choose eyes type</div>
+            <div id='redButton' class='button' >
+            </div>
+            <div id='blueButton' class='button'>
+            </div>
+            <div id='purpleButton' class='button'>
+            </div>
+            <div id='pinkButton' class='button'>
+            </div>
+            <div id='whiteButton' class='button'>
+            </div>
+            <div id='cyanButton' class='button'>
+            </div>
+            <div id='greenButton' class='button'>
+            </div>
+            <div id='yellowButton' class='button'>
+            </div>
+            <div id='brownButton' class='button'>
+            </div>
+            <img id='ellipse5' class='outerEye' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgBxZeNDYIwFIQPJ3CEbqAbyAhsICOwgW6gTqBu4Ai6AU6gTiAb6DuFKPhDC+XxJWeiCX498ghtADuGkrEkkkwkJv+NZJJUcpTsJTt4gH8+k1wlN8uc8msMGpI4Cr8tIIYjixbCaha20rVHaZF1ndRnU+vmcYfSIklVavAchq7FHNbHYzjIxVO0GH8HKC211mj70TpSlBYJeatD6BNRPII+kwBv91yRjOIbemCAnqA4gz4ZxWfoc6T4AH1Sir1sVRzZ84OPUpudhmtOlBbDtYIe2/cvWq3Z1lRXkiiIY/xg2aF0iRo2HUg3sMRn89qmVWK025lwWBM0xEjmjgu45tf8fdUGsIdbpBDPw9sI5UPbBa8DWwqLF88dLPaLhWtmNFwAAAAASUVORK5CYII='/>
+            </img>
+            <div id='ellipse6' class='outerEye'>
+            </div>
+            <div id='ellipse7' class='innereye'>
+            </div>
+            <img id='ellipse9' class='outerEye' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAZCAYAAACl8achAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEcSURBVHgB1ZjRDYIwFEUvuoCf/tERGIERGIER3MQ4gW6gG8AIOgE4ATgBvpeW5KVRg1CgvckBPgicNoW+NsL4JIKYUMROIFMbWuJJ3AWzhkUOREE0ROcAfs6VyKEb7SypEe0WgBuQYULSBWVtKujeHxy1oqzNGQOGTWJa6YOw7PXkl7CrD8w1zSdxBX+FpbiS0pXHspKiF849F7XJtnQ4wvGPfebsI+ixskM4aVm6Q2DZQBcxIaVl6dkrLcd5sPQJYeXSXxQI43dXSXuFAGdETnC1hxSvPJLth8RX4T4KerD7IFziz9k6x3q9XkKvnEaH12w3BCJrR0H3PjfA5Wq8hF7lD65/IoyP3PdQ5qV8jq37uEx4mXNtmLTv8QYu0WWbB36CtgAAAABJRU5ErkJggg=='/>
+            </img>
+            <div id='ellipse10' class='innereye'>
+            </div>
+            <div id='ellipse8' class='outerEye'>
+            </div>
+            <img id='ellipse11' class='outerEye' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgBxZeNDYIwFIQPJ3CEbqAbyAhsICOwgW6gTqBu4Ai6AU6gTiAb6DuFKPhDC+XxJWeiCX498ghtADuGkrEkkkwkJv+NZJJUcpTsJTt4gH8+k1wlN8uc8msMGpI4Cr8tIIYjixbCaha20rVHaZF1ndRnU+vmcYfSIklVavAchq7FHNbHYzjIxVO0GH8HKC211mj70TpSlBYJeatD6BNRPII+kwBv91yRjOIbemCAnqA4gz4ZxWfoc6T4AH1Sir1sVRzZ84OPUpudhmtOlBbDtYIe2/cvWq3Z1lRXkiiIY/xg2aF0iRo2HUg3sMRn89qmVWK025lwWBM0xEjmjgu45tf8fdUGsIdbpBDPw9sI5UPbBa8DWwqLF88dLPaLhWtmNFwAAAAASUVORK5CYII='/>
+            </img>
+            <div id='ellipse12' class='innereye'>
+            </div>
+            <img id='ellipse13' class='outerEye' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAZCAYAAACl8achAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEcSURBVHgB1ZjRDYIwFEUvuoCf/tERGIERGIER3MQ4gW6gG8AIOgE4ATgBvpeW5KVRg1CgvckBPgicNoW+NsL4JIKYUMROIFMbWuJJ3AWzhkUOREE0ROcAfs6VyKEb7SypEe0WgBuQYULSBWVtKujeHxy1oqzNGQOGTWJa6YOw7PXkl7CrD8w1zSdxBX+FpbiS0pXHspKiF849F7XJtnQ4wvGPfebsI+ixskM4aVm6Q2DZQBcxIaVl6dkrLcd5sPQJYeXSXxQI43dXSXuFAGdETnC1hxSvPJLth8RX4T4KerD7IFziz9k6x3q9XkKvnEaH12w3BCJrR0H3PjfA5Wq8hF7lD65/IoyP3PdQ5qV8jq37uEx4mXNtmLTv8QYu0WWbB36CtgAAAABJRU5ErkJggg=='/>
+            </img>
+            <div id='ellipse14' class='innereye'>
+            </div>
+            <div id='ellipse15' class='outerEye'>
+            </div>
+            <div id='ellipse16' class='outerEye'>
+            </div>
+            </div>
+    </body>
+</html>

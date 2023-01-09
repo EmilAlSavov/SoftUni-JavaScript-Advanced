@@ -1,0 +1,328 @@
+@font-face {
+    font-family: BluberryNormalimport;
+    src: url('../../Fonts/BluberryNormal.ttf');
+}
+
+body{
+    background-color:#faf090;
+}
+#button
+{
+border-radius:30px;
+width:160px;
+height:58px;
+background-color:#ffb86e;
+left:937px;
+top:534px;
+position:absolute;
+text-align:center;
+vertical-align:middle;
+font-size:23px;
+font-family: BluberryNormalimport;
+}
+.name
+{
+text-align:left;
+vertical-align:text-top;
+font-size:23px;
+font-family: BluberryNormalimport;
+left:984px;
+top:85px;
+width:66px;
+height:33px;
+position:absolute;
+color:#000000;
+}
+.mechencemodel1
+{
+width:497px;
+height:656px;
+left:370px;
+top:20px;
+position:absolute;
+}
+#ellipse1
+{
+top:175px;
+left:624px;
+position:absolute;
+}
+#ellipse2
+{
+top:175px;
+left:559px;
+position:absolute;
+}
+.outerEye{
+    height: 30px;
+width: 30px;
+border-radius: 50%;
+background-color: black;
+}
+#ellipse3
+{
+top:180px;
+left:624px;
+
+position:absolute;
+}
+#ellipse4
+{
+
+top:180px;
+left:559px;
+position:absolute;
+}
+
+.innerEye{
+width:20px;
+height:20px;
+background-color: white;
+border-radius: 50%;
+}
+.rectangle1
+{
+border-radius:30px;
+width:239px;
+height:57px;
+background-color:#e1d8cb;
+top:118px;
+left:897px;
+position:absolute;
+text-align: center;
+font-family: BluberryNormalimport;
+}
+#warning{
+    font-family: BluberryNormalimport;
+
+    top:170px;
+    left:970px;
+    position:absolute;
+
+    height: 30px;
+    width: 100px;
+    color: red;
+}
+.rectangle2
+{
+width:225px;
+height:225px;
+background-color:#fffde4;
+border:1px solid #000000;
+top:116px;
+left:127px;
+position:absolute;
+}
+.rectangle3
+{
+width:225px;
+height:225px;
+background-color:#fffde4;
+border:1px solid #000000;
+top:395px;
+left:127px;
+position:absolute;
+}
+.chooseacoatcolor
+{
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family: BluberryNormalimport;
+left:150px;
+top:126px;
+width:224px;
+height:33px;
+position:absolute;
+color:#000000;
+}
+.chooseeyestype
+{
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family: BluberryNormalimport;
+left:158px;
+top:405px;
+width:177px;
+height:33px;
+position:absolute;
+color:#000000;
+}
+#redButton
+{
+width:47px;
+height:44px;
+background-color:#ff1616;
+border:1px solid #000000;
+top:161px;
+left:143px;
+position:absolute;
+}
+#blueButton
+{
+width:47px;
+height:44px;
+background-color:#5271ff;
+border:1px solid #000000;
+top:217px;
+left:289px;
+position:absolute;
+}
+#purpleButton
+{
+width:47px;
+height:44px;
+background-color:#ce3fd6;
+border:1px solid #000000;
+top:279px;
+left:143px;
+position:absolute;
+}
+#pinkButton
+{
+width:47px;
+height:44px;
+background-color:#ffa0cb;
+border:1px solid #000000;
+top:279px;
+left:216px;
+position:absolute;
+}
+#whiteButton
+{
+width:47px;
+height:44px;
+background-color:#ffffff;
+border:1px solid #000000;
+top:279px;
+left:289px;
+position:absolute;
+}
+#cyanButton
+{
+width:47px;
+height:44px;
+background-color:#52ffea;
+border:1px solid #000000;
+top:217px;
+left:216px;
+position:absolute;
+}
+#greenButton
+{
+width:47px;
+height:44px;
+background-color:#6cff71;
+border:1px solid #000000;
+top:217px;
+left:143px;
+position:absolute;
+}
+#yellowButton
+{
+width:47px;
+height:44px;
+background-color:#69580dfd;
+border:1px solid #000000;
+top:161px;
+left:289px;
+position:absolute;
+}
+#brownButton
+{
+width:47px;
+height:44px;
+background-color:#ffb03a;
+border:1px solid #000000;
+top:161px;
+left:216px;
+position:absolute;
+}
+#ellipse5
+{
+width:30px;
+height:30px;
+left:189px;
+top:453px;
+position:absolute;
+}
+#ellipse6
+{
+top:500px;
+left:191px;
+position:absolute;
+}
+#ellipse7
+{
+top:458px;
+left:189px;
+position:absolute;
+}
+#ellipse9
+{
+width:45px;
+height:25px;
+left:184px;
+top:561px;
+position:absolute;
+}
+#ellipse10
+{
+top:563px;
+left:189px;
+position:absolute;
+}
+#ellipse8
+{
+top:520px;
+left:193px;
+position:absolute;
+}
+#ellipse11
+{
+left:254px;
+top:453px;
+position:absolute;
+}
+#ellipse12
+{
+top:458px;
+left:254px;
+position:absolute;
+}
+#ellipse13
+{
+width:45px;
+height:25px;
+left:243px;
+top:561px;
+position:absolute;
+}
+#ellipse14
+{
+top:563px;
+left:248px;
+position:absolute;
+}
+#ellipse15
+{
+top:501px;
+left:252px;
+position:absolute;
+}
+#ellipse16
+{
+top:521px;
+left:254px;
+position:absolute;
+}
+
+
+.button:hover {filter: brightness(70%);}
+
+.button:active {
+    filter: brightness(70%);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

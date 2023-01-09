@@ -1,0 +1,150 @@
+@font-face {
+    font-family: BluberryNormalimport;
+    src: url('../../Fonts/BluberryNormal.ttf');
+}
+.inner{
+    background-color: white;
+    z-index: 9999;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+
+}
+.outer{
+    background-color: black;
+    z-index: 9999;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    
+}
+
+#leftouter{
+    left: 102px;
+}
+#rightouter{
+    left: 124px;
+}
+.name{
+    font-size: 20px;
+    width: 100%;
+    font-family: BluberryNormalimport;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+}
+.image{
+    max-height: 100%;  
+        max-width: 100%; 
+        position: absolute;  
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;  
+        margin: auto;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-family: BluberryNormalimport;
+}
+
+#title{
+    
+
+    position: fixed;
+    top: 70px;
+    left: 100px;
+}
+
+body{
+    background-color: #FAF090;
+}
+
+#button{
+    height: 50px;
+    width: 120px;
+    background-color: #FFB86E;
+    border-radius: 25px;
+
+    position: absolute;
+    right: 150px;
+
+    top: 130px;
+}
+
+#button:hover {background-color: #BB7833}
+
+#button:active {
+  background-color: #BB7833;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#ancher{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+
+#up-the-button{
+    position: absolute;
+    right: 130px;
+    top: 90px;
+}
+
+#border{
+    background-color: #BB7833;
+    position: fixed;
+    height: 500px;
+    width: 1000px;
+    border-radius: 0px 0px 50% 50%;
+    transform: rotate(-10deg);
+    top: -250px;
+    left: -100px;
+}
+
+
+
+#bears {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	}
+	
+li {
+    float: left;
+    
+}
+
+li + li{
+    margin-left: 100px;
+}
+
+li div {
+    background-color: #FFFBF4;
+    text-align: center;
+    padding: 100px;
+    text-decoration: none;
+}
+
+li div:hover {
+    background-color: #EDE9E3;
+  }
